@@ -64,7 +64,7 @@ INSERT INTO `geopos_gateways` (`id`, `name`, `enable`, `key1`, `key2`, `currency
  - ord is telling about the order which is going to be displayed in UI
  
 ### UI Design
-![Imgur](https://i.imgur.com/063oATX.jpg)
+![Imgur](https://i.imgur.com/Qeo6uTr.png)
     <center><u>Overview of IPpay gateway</u></center>
 
 The above UI was designed based on the SecurePay payment gateway in Agriios.
