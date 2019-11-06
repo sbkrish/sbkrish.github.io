@@ -30,7 +30,7 @@ Omnipay is a payment processing library for PHP. It has been designed based on i
 5. Add IPpay packages using composer.
 	> This package is developed by the third party user on top of Omnipay libray
 
-##### IPpay driver for the Omnipay PHP payment processing library
+#### IPpay driver for the Omnipay PHP payment processing library
 To install, simply add it to your composer.json file in application/third_party :  
 ```json
 {
