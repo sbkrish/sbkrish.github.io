@@ -63,7 +63,7 @@ INSERT INTO `geopos_gateways` (`id`, `name`, `enable`, `key1`, `key2`, `currency
  - enable column must set 'true' 
  - ord is telling about the order which is going to be displayed in UI
  
- ### UI Design
+### UI Design
 ![Imgur](https://i.imgur.com/063oATX.jpg)
     <center><u>Overview of IPpay gateway</u></center>
 
