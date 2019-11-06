@@ -122,15 +122,15 @@ We need to make some changes in dranes/omnipay-ippay files to get everything wor
 Delete the source code inside getData() function as it was created for the transaction made by cheque. We need to change the data for card transaction. Copy and paste the below code inside that function.
 ```php
 public function getData() {
- 		$this->getCard()->validate();
-        $data = array();
-        $data['TransactionType'] = $this->getTransactionType();
-        $data['CardNum'] = $this->getCard()->getNumber();
-        $data['CardExpMonth'] = $this->getCard()->getExpiryDate('m');
-        $data['CardExpYear'] = $this->getCard()->getExpiryDate('y');
-        $data['TotalAmount'] =floor($this->getAmount());
-        return $data;
-        }
+     $this->getCard()->validate();
+     $data = array();
+     $data['TransactionType'] = $this->getTransactionType();
+     $data['CardNum'] = $this->getCard()->getNumber();
+     $data['CardExpMonth'] = $this->getCard()->getExpiryDate('m');
+     $data['CardExpYear'] = $this->getCard()->getExpiryDate('y');
+     data['TotalAmount'] =floor($this->getAmount());
+     return $data;
+     }
 ```
 ##### 2. AbstractRequest.php
 Endpoint is mentioned in this file to perform a RESTful API call.
