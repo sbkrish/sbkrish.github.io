@@ -46,7 +46,7 @@ And run composer to update your dependencies. For that follow the below steps:
     $ curl -s http://getcomposer.org/installer | php
     $ php composer.phar update
     ```
-3. All the existing packages were updated and newly added packages were installed. Ensure the below update commands for successfull installtion of IPpay.
+3. All the existing packages were updated and newly added packages were installed. Ensure the below update commands for successfull installtion of IPpay.<br>
 ![Imgur](https://i.imgur.com/1YBrizn.png)
 4. Check the newly added "dranes" folder inside application/third_party/vendor
     	
