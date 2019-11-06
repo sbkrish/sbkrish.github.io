@@ -3,7 +3,8 @@
 ### Prerequisites 
 - Clone & configure Agriios Repository
 - Install composer 
-- Add Omnipay IPpay package <br>
+- Add Omnipay IPpay package
+
 ### What is IPpay?
 IPpay is an important source solution for accepting Card-not-Present (CNP) payment transactions. Card not Present (CNP) refers to a purchase a consumer makes without
 physically presenting his or her credit or debit card at the time of purchase.
