@@ -112,6 +112,7 @@ After designing the IPpay gateway, we need to insert it in Billing controller.<b
           $response = $this->ippay($cardNumber, $nmonth, $nyear, $cardCVC, $amount, $tid, $gateway_data);
           break;
     ```
+
 ### Changes in IPpay files
 We need to make some changes in dranes/omnipay-ippay files to get everything working fine. Those files can be located in 					   
   ```
