@@ -128,7 +128,7 @@ public function getData() {
      $data['CardNum'] = $this->getCard()->getNumber();
      $data['CardExpMonth'] = $this->getCard()->getExpiryDate('m');
      $data['CardExpYear'] = $this->getCard()->getExpiryDate('y');
-     data['TotalAmount'] =floor($this->getAmount());
+     $data['TotalAmount'] =floor($this->getAmount());
      return $data;
      }
 ```
